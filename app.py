@@ -49,8 +49,15 @@ if user_input:
 # Footer
 st.markdown("---")
 
-# Logo
-st.image("logo-ingebi.jpg", width=100)
+# Centrar imagen
+st.markdown(
+    """
+    <div style="text-align: center;">
+        <img src="logo-ingebi.jpg" width="100">
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 # Texto
 st.markdown(
