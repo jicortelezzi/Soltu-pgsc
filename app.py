@@ -61,7 +61,7 @@ st.markdown(
 st.markdown(
     """
     <div style="text-align: center;">
-        <img src="logo-ingebi.jpg" width="100">
+        <img src="https://www.fbmc.fcen.uba.ar/wp-content/uploads/2020/02/logo-ingebi.jpg" width="100">
     </div>
     """,
     unsafe_allow_html=True
