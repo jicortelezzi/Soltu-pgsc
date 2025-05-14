@@ -48,6 +48,8 @@ if user_input:
             st.error("PGSC ID not found.")
 # Footer
 st.markdown("---")
+# Logo
+st.image("logo-ingebi.jpg", width=100)
 
 # Centrar imagen
 st.markdown(
