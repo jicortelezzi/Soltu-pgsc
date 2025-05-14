@@ -64,8 +64,8 @@ st.markdown(
     <div style='text-align: center; font-size: 0.9em; color: #555;'>
         <a href="https://ingebi-conicet.gov.ar/es_ingenieria-genetica-de-plantas/" target="_blank"
            style="color: #1f77b4; text-decoration: none; font-weight: bold;">
-            Genetic Engineering in Plants Laboratory (INGEBI-CONICET) :electron:
-        </a><br>
+            Genetic Engineering in Plants Laboratory (INGEBI-CONICET) 
+        </a><br>:argentina:
         <span style="font-style: italic;">Developed by Juan Ignacio Cortelezzi</span>
     </div>
     """,
