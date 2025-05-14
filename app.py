@@ -52,7 +52,6 @@ st.markdown("---")
 <div style='text-align: center;'>
     st.image("logo-ingebi.jpg", width=100)
 </div>
-    """,
     unsafe_allow_html=True
 )
 
