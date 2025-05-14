@@ -51,6 +51,6 @@ if user_input:
 st.markdown("---")
 st.markdown(
     "[Genetic Engineering in Plants Laboratory (INGEBI, CONICET)](https://ingebi-conicet.gov.ar/es_ingenieria-genetica-de-plantas/).",
-    "🧬 Developed by **Juan Ignacio Cortelezzi**"
+    "🧬 Developed by **Juan Ignacio Cortelezzi**",
     unsafe_allow_html=True
 )
