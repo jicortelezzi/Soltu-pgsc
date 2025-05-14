@@ -50,7 +50,8 @@ if user_input:
 # Footer
 st.markdown("---")
 st.markdown(
-    "🧬 App desarrollada por **Juan Ignacio Cortelezzi** en el "
-    "[Laboratorio de Biología Molecular Vegetal (INGEBI, CONICET)](https://www.ingebi-conicet.gov.ar).",
+    "[Genetic Engineering in Plants Laboratory (INGEBI, CONICET)](https://ingebi-conicet.gov.ar/es_ingenieria-genetica-de-plantas/).",
     unsafe_allow_html=True
+    "🧬 Developed by **Juan Ignacio Cortelezzi**"
+
 )
