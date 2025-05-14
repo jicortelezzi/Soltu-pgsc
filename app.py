@@ -48,12 +48,14 @@ if user_input:
             st.error("PGSC ID not found.")
 # Footer
 st.markdown("---")
-# Logo
-<div style='text-align: center;'>
-    st.image("logo-ingebi.jpg", width=100)
-</div>
+st.markdown(
+    """
+    <div style='text-align: center;'>
+        st.image("logo-ingebi.jpg", width=100)
+    </div>
+       """,
     unsafe_allow_html=True
-
+)
 
 # Centrar imagen
 st.markdown(
