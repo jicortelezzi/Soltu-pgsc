@@ -70,7 +70,7 @@ st.markdown(
         <a href="https://spuddb.uga.edu/index.shtml" target="_blank"
            style="color: #1f77b4; text-decoration: none; font-weight: bold;">
            SPUD DB
-        </a>.
+        </a>.<br>
         <span style="font-style: italic;">Developed by Juan Ignacio Cortelezzi</span><br><br>
     </div>
     """,
