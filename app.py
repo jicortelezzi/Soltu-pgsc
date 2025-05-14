@@ -52,7 +52,7 @@ st.markdown("---")
 st.markdown(
     """
     <div style='text-align: center;'>
-        <img src="https://example.com/path/to/logo-ingebi.jpg" style="max-width: 100px; width: 100%; height: auto;">
+        <img src="https://www.fbmc.fcen.uba.ar/wp-content/uploads/2020/02/logo-ingebi.jpg" style="max-width: 100px; width: 100%; height: auto;">
     </div>
     """,
     unsafe_allow_html=True
