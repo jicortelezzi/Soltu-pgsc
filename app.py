@@ -46,11 +46,15 @@ if user_input:
             st.success(f"**Soltu ID:** `{row['soltu_id']}`\n\n**E-value:** `{row['evalue']}`")
         else:
             st.error("PGSC ID not found.")
-
-# Footer
+#Mensaje
 st.markdown("---")
 st.markdown(
-    "[Genetic Engineering in Plants Laboratory (INGEBI, CONICET)](https://ingebi-conicet.gov.ar/es_ingenieria-genetica-de-plantas/).",
-    "🧬 Developed by **Juan Ignacio Cortelezzi**",
+    """
+    <div style='text-align: center; font-size: 0.9em;'>
+        <a href="https://ingebi-conicet.gov.ar/es_ingenieria-genetica-de-plantas/" target="_blank">
+        Genetic Engineering in Plants Laboratory (INGEBI-CONICET)</a><br>
+        Developed by <strong>Juan Ignacio Cortelezzi</strong>
+    </div>
+    """,
     unsafe_allow_html=True
 )
