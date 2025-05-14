@@ -11,7 +11,7 @@ df = load_data()
 
 # Title and description
 st.title("🧬 Potato Gene ID Converter :potato:")
-st.title("Soltu :arrows_counterclockwise: PGSC"
+st.title("Soltu :arrows_counterclockwise: PGSC")
 st.write("Enter a gene ID to retrieve the corresponding Soltu or PGSC identifier, along with the associated e-value (if available)")
 
 # Initialize session state
