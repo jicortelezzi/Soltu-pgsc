@@ -11,7 +11,7 @@ df = load_data()
 
 # Title and description
 st.title("🧬 Soltu–PGSC Gene ID Converter")
-st.write("Enter the gene ID and obtain the correspondent between *Soltu* and *PGSC* alongside the associated e-value.")
+st.write("Enter a gene ID to retrieve the corresponding Soltu or PGSC identifier, along with the associated e-value (if available)")
 
 # Initialize session state
 if "last_query_type" not in st.session_state:
@@ -28,7 +28,7 @@ if query_type != st.session_state.last_query_type:
     st.session_state.last_query_type = query_type
 
 # Input
-user_input = st.text_input("Ingresá el ID:", value=st.session_state.input_value, key="input_value")
+user_input = st.text_input("Enter gene ID:", value=st.session_state.input_value, key="input_value")
 
 # Process
 if user_input:
@@ -46,14 +46,17 @@ if user_input:
             st.success(f"**Soltu ID:** `{row['soltu_id']}`\n\n**E-value:** `{row['evalue']}`")
         else:
             st.error("PGSC ID not found.")
-#Mensaje
+# Footer
 st.markdown("---")
 st.markdown(
     """
-    <div style='text-align: center; font-size: 0.9em;'>
-        <a href="https://ingebi-conicet.gov.ar/es_ingenieria-genetica-de-plantas/" target="_blank">
-        Genetic Engineering in Plants Laboratory (INGEBI-CONICET)</a><br>
-        Developed by <strong>Juan Ignacio Cortelezzi</strong>
+    <div style='text-align: center; margin-top: 30px;'>
+        <img src='logo-ingebi.jpg' alt='INGEBI-CONICET' width='100'><br><br>
+        <a href="https://ingebi-conicet.gov.ar/es_ingenieria-genetica-de-plantas/" target="_blank"
+           style="color: #1f77b4; text-decoration: none; font-weight: bold; font-size: 0.95em;">
+            Genetic Engineering in Plants Laboratory (INGEBI-CONICET)
+        </a><br>
+        <span style="font-style: italic; color: #555;">Developed by Juan Ignacio Cortelezzi</span>
     </div>
     """,
     unsafe_allow_html=True
