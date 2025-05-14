@@ -48,15 +48,19 @@ if user_input:
             st.error("PGSC ID not found.")
 # Footer
 st.markdown("---")
+
+# Logo
+st.image("logo-ingebi.jpg", width=100)
+
+# Texto
 st.markdown(
     """
-    <div style='text-align: center; margin-top: 30px;'>
-        <img src='logo-ingebi.jpg' alt='INGEBI-CONICET' width='100'><br><br>
+    <div style='text-align: center; font-size: 0.9em; color: #555;'>
         <a href="https://ingebi-conicet.gov.ar/es_ingenieria-genetica-de-plantas/" target="_blank"
-           style="color: #1f77b4; text-decoration: none; font-weight: bold; font-size: 0.95em;">
+           style="color: #1f77b4; text-decoration: none; font-weight: bold;">
             Genetic Engineering in Plants Laboratory (INGEBI-CONICET)
         </a><br>
-        <span style="font-style: italic; color: #555;">Developed by Juan Ignacio Cortelezzi</span>
+        <span style="font-style: italic;">Developed by Juan Ignacio Cortelezzi</span>
     </div>
     """,
     unsafe_allow_html=True
